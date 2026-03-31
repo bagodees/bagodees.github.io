@@ -26,7 +26,7 @@ description: >- # used by seo meta and the atom feed
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+url: "https://blog.labatho.me"
 
 github:
   username: bagodees  # change to your GitHub username
@@ -38,7 +38,7 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Cory
-  email: cory.j.carter@proton.me # change to your email address
+  # email: # change to your email address
   fediverse_handle: # fill in your fediverse handle. E.g. "@username@domain.com"
   links:
     # The first element serves as the copyright owner's link
@@ -102,7 +102,7 @@ theme_mode: dark # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: https://media.licdn.com/dms/image/v2/D5603AQE5c_g9UvUcKg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1706220210462?e=1776297600&v=beta&t=Ehns--Uk9Vh2mGMKl36VOMpDK-tJXyPhq3qUlnq_as4
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
