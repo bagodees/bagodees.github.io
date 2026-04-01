@@ -1,11 +1,15 @@
 ---
 layout: post
-title: “Installing Proxmox VE - A Beginner’s Complete Guide”
+title: “Installing Proxmox VE: A Beginner’s Complete Guide”
 date: 2026-03-31 00:00:00 +0000
 categories: Homelab Proxmox
 tags: proxmox virtualization homelab, linux self-hosting beginner
 image:
   path: /assets/img/headers/proxmox-guide.png
+alt: Proxmox VE Installation Guide
+
+If you’ve been curious about running virtual machines or containers at home, **Proxmox VE** is one of the best places to start. It’s free, powerful, and used by homelabbers and enterprises alike. This guide walks you through the entire process — from downloading the ISO to having a hardened, ready-to-use Proxmox server — assuming you’re starting from zero.
+
 ---
 
 ## What Is Proxmox VE?
