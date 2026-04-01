@@ -36,7 +36,7 @@ Before getting started, gather the following:
 
 
 > **Tip:** If you’re unsure whether your CPU supports virtualization, Google your CPU model + “virtualization support”. Most CPUs made after 2010 do.
-> {: .prompt-tip }
+{: .prompt-tip }
 
 -----
 
@@ -60,7 +60,7 @@ You’ll use a tool called **Rufus** (Windows) or **Balena Etcher** (Windows/Mac
 1. Click **Flash!** and wait for it to finish
 
 > **Warning:** Etcher will erase everything on the USB drive. Double-check you’ve selected the correct drive before flashing.
-> {: .prompt-warning }
+{: .prompt-warning }
 
 -----
 
@@ -113,7 +113,7 @@ Read through (or scroll past) the EULA and click **I agree**.
 This is where Proxmox will be installed. Select your drive from the list.
 
 > **Warning:** The selected drive will be completely wiped. If you have multiple drives, be absolutely sure you’re selecting the right one.
-> {: .prompt-warning }
+{: .prompt-warning }
 
 #### Choose Your Filesystem — ZFS or ext4?
 
@@ -131,7 +131,7 @@ After selecting your disk, click **Options** to choose a filesystem. This is one
 **If you have 2+ drives:** Consider **ZFS RAID-1** (mirrored). ZFS protects against silent data corruption and makes snapshots trivial.
 
 > **Tip:** ZFS loves RAM. A general rule of thumb is 1 GB of RAM per 1 TB of storage, on top of what your VMs need. If RAM is limited, stick with ext4.
-> {: .prompt-tip }
+{: .prompt-tip }
 
 ### 5c. Set Location and Timezone
 
@@ -156,7 +156,7 @@ This screen sets up your management interface — how you’ll reach the Proxmox
 
 
 > **Tip:** Write down the IP address you assign here — you’ll use it to access the web UI after install.
-> {: .prompt-tip }
+{: .prompt-tip }
 
 ### 5f. Review and Install
 
@@ -211,7 +211,7 @@ apt update
 ```
 
 > **Note:** The no-subscription repo is perfectly stable for homelab use. The Enterprise repo simply offers faster patch releases and official support.
-> {: .prompt-info }
+{: .prompt-info }
 
 ### 7b. Run System Updates
 
@@ -236,7 +236,7 @@ systemctl restart pveproxy
 ```
 
 > **Note:** This may need to be re-applied after Proxmox updates.
-> {: .prompt-info }
+{: .prompt-info }
 
 ### 7d. Configure a Network Bridge
 
@@ -260,7 +260,7 @@ One of Proxmox’s best features is built-in backup scheduling. Set it up early 
 1. Set a **retention policy** (e.g., keep last 3 backups)
 
 > **Tip:** Even if your storage is local for now, having scheduled backups means you can restore from a snapshot if a VM gets corrupted.
-> {: .prompt-tip }
+{: .prompt-tip }
 
 ### 7g. Enable IOMMU in the Kernel (If You Enabled It in BIOS)
 
