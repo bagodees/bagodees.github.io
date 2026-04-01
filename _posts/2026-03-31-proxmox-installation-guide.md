@@ -1,6 +1,6 @@
 ---
 layout: post
-title: “Installing Proxmox VE A Beginner’s Complete Guide”
+title: Installing Proxmox VE A Beginner’s Complete Guide
 date: 2026-03-31 00:00:00 +0000
 categories: Homelab Proxmox
 tags: proxmox virtualization homelab, linux self-hosting beginner
